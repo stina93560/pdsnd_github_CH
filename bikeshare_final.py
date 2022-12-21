@@ -57,7 +57,7 @@ def get_filters():
             print ('\n',"Valid day inputs Only")
             continue
 
-
+# return the city month and day information 
     print('-'*40)
     return city, month, day
 
