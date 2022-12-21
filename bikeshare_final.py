@@ -16,7 +16,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 cities = ['chicago', 'new york city', 'washington']
 months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
-
+# interface will begin asking a series of questions
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -62,7 +62,7 @@ def get_filters():
     return city, month, day
 
 
-
+# loads the city, month and day
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
